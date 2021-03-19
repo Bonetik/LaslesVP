@@ -18,12 +18,12 @@
 .page_block{
     max-width: 1440px;
     margin: 0 auto;
-    background: #E5E5E5;
+    background: #F8F8F8;
 }
 .page_footer{
     max-width: 1440px;
     margin: 0 auto;
-    background: #F8F8F8;
+    background: #E5E5E5;
 }
 .conteiner{
     max-width: 1180px;
