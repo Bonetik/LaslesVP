@@ -127,7 +127,7 @@
 
 /* main */
 .main_content{
-    max-width: 1140px;
+    min-width: 1140px;
 
     border-radius: 10px;
     align-items: center;
@@ -395,9 +395,10 @@
 }
 
 /* block_info */
-.block_info{
-    max-width: 1140px;
-    position: absolute;
+.block_list{ 
+    left: 50px; 
+    right: 50px; 
+    margin: 0 auto;
     margin-top: -120px;
 
     font-family: 'Rubik', sans-serif;
@@ -407,9 +408,8 @@
     background: #fefefe;
 
     border-radius: 10px;
-    box-shadow: 15px 15px 40px 0px #0D1025;
-}
-.block_list{
+    box-shadow: 10px 10px 30px 0px #0D1025;
+    position: absolute;
     display: flex;
     justify-content: space-between;
 }
@@ -433,7 +433,7 @@
     margin-bottom: 28px;
 }
 .block_button{
-    margin: 110px 100px 0 0;
+    margin: 120px;
 }
 .button_block{
     padding: 17px 60px;
